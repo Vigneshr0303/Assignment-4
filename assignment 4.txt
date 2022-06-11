@@ -1,0 +1,9 @@
+1. Loops - This is done to avoid infite loops during transcation verificaton. 
+
+2. Lack of Turing-completness, value-blindness, Lack of state and blockchain-blindness
+
+3. EOA in the Ethereum blockchain is controlled by private keys. An externally owned account has no code and one can send messages from an eternally owned account by creating and signing a transaction
+
+4. Contract Accounts in the Ethereum blockchain is controlled by their contract code. Every time the contract account receives a message its code activates, allowing it to read and write to internal storage and send other messages or create contracts in turn
+
+5. Gas fees are payments made by users to compensate for the computing energy required to process and validate transaction on the Ethereum blockhain (Proof of work)
